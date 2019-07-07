@@ -73,5 +73,6 @@ class ExtractAttachment(BaseOperator):
         imapSession.logout()
         
     def execute(self, context):
+        execution_date = (context.get('execution_date') 
         self.__extract_email_attachment(execution_date)
         

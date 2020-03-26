@@ -19,3 +19,6 @@ Operators to execute the Pipeline in order:
 5.Write Logs
 
 6.Send Email
+
+documentation:
+https://towardsdatascience.com/data-engineering-how-to-build-a-gmail-data-pipeline-on-apache-airflow-ce2cfd1f9282
